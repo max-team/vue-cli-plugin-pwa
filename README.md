@@ -1,4 +1,4 @@
-# vue-cli-plugin-mars-pwa
+# @marsjs/vue-cli-plugin-pwa
 
 > pwa plugin for vue-cli
 

@@ -1,5 +1,5 @@
 {
-  "name": "vue-cli-plugin-mars-pwa",
+  "name": "@marsjs/vue-cli-plugin-pwa",
   "version": "0.0.1",
   "description": "mars pwa plugin for vue cli",
   "main": "index.js",
