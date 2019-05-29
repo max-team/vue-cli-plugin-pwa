@@ -1,0 +1,18 @@
+{
+  "name": "vue-cli-plugin-mars-pwa",
+  "version": "0.0.1",
+  "description": "mars pwa plugin for vue cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue-cli"
+  ],
+  "author": "zhangjingyuan",
+  "license": "ISC",
+  "dependencies": {
+    "@marsjs/pwa-webpack-plugin": "0.0.1",
+    "copy-webpack-plugin": "^5.0.3"
+  }
+}
