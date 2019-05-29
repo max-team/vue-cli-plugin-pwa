@@ -2,6 +2,11 @@ const BasicPlugin = require('@marsjs/pwa-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = (api, options) => {
+
+    if (!JSON.parse(process.env.MARS_PWA || 'true')) {
+        return;
+    }
+
     const version = options.pwa && options.pwa.version
         ? options.pwa.version
         : new Date().getTime().toString().substr(-6);
